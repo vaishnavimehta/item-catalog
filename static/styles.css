@@ -1,0 +1,94 @@
+h1, h2, h3, h4 {
+	color: #CCCCCC;
+}
+
+h1, h2 {
+	font-family: "Montserrat Subrayada", sans-serif;
+	margin: 0;
+}
+
+h1 {
+	border-bottom: 2px solid #eee;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+p {
+	color: #CCCCCC;
+}
+
+a {
+	text-decoration: none;
+	color:#FFFFCC;
+	font-size: .75em;
+	margin:7px;
+}
+
+.pane {
+	position:absolute;
+	left: 25%;
+	border: 2px solid;
+    border-radius: 25px;
+	padding: 5px;
+	margin: 5px;
+	border-color: #999999;
+	background-color: #333333;
+}
+
+.header {
+	left:50%;
+	text-align: center;
+}
+
+.name {
+	width:50%;
+	display: inline-block;
+	float: left;
+}
+
+.price {
+	text-align: right;
+	width:50%;
+	float: right;
+}
+
+#log {
+	font-size:18;
+	text-align:right;
+	position:absolute;
+	top:10;
+	right:10;
+}
+
+body {
+	font-family: "Montserrat Subrayada", sans-serif;
+	background-color: #333333;
+	color: #FFFFCC;
+}
+
+.flash {
+	color: white;
+}
+
+h2 {
+	text-decoration: underline;
+	-moz-text-decoration-color: white;
+	color: #FFFFCC;
+}
+
+h1 {
+	text-decoration: underline;
+	-moz-text-decoration-color: white;
+	color: #FFFFCC;
+}
+
+img {
+	height:150;
+	width:150;
+}
+
+h3 {
+	color:white;
+}

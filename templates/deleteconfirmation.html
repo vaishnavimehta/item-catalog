@@ -1,0 +1,27 @@
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada" rel="stylesheet">
+	<link rel=stylesheet type=text/css href="{{url_for('static',filename='styles.css')}}"/>
+</head>
+<body>
+
+	<div class="col-md-2 text-right">
+		<a href="{{url_for('gdisconnect')}}" style="font-size:18;text-align:right;position:absolute; top:10; right:10;">Logout </a>
+	</div>
+	<center>
+		<h1> Are you sure you want to delete {{item.name}}? </h1>
+
+		<form action="{{ url_for('deleteMenuItems',restaurant_id = item.restaurant_id, menu_id=item.id)}}" method = 'post'>
+
+			<input type='submit', value = 'Delete'>
+
+
+
+
+		</form>
+
+		<a href = "{{ url_for('restaurantMenu', restaurant_id = item.restaurant_id)}}"> Cancel </a>
+	</center>
+</body>
+
+</html>
